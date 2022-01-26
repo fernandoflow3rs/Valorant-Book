@@ -1,0 +1,46 @@
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer nav{
+    padding-bottom: 25px;
+}
+h1{
+    font-family: VALORANT;
+    color: #ec2941ff
+}
+.page-label {
+
+}
+body{
+    text-align: center;
+    /* CSS HEX */
+    --cadet-blue: #4e9596ff;
+    --red-munsell: #ec2941ff;
+    --jet: #353535ff;
+    --cultured: #f5f5f5;
+    --maximum-yellow-red: #ffbc42ff;
+    background-color: var(--jet);
+    color: var(--cultured);
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cultured);
+}
+a:hover {
+    background-color: var(--cadet-blue);
+    color: var(--maximum-yellow-red);
+}
+#agent {
+    max-width: 100px;
+}
+/*DL,DD,DS TAGS BELOW*/
+dl {
+    margin-bottom: 50px;
+}
+dl dt {
+    float: left;
+}

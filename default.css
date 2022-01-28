@@ -1,20 +1,30 @@
-header{
+header
+{
     text-align: center;
 }
-footer{
+
+footer
+{
     text-align: center;
 }
-footer nav{
+
+footer nav
+{
     padding-bottom: 25px;
 }
-h1{
+
+h1
+{
     font-family: VALORANT;
     color: #ec2941ff
 }
+
 .page-label {
 
 }
-body{
+
+body
+{
     text-align: center;
     /* CSS HEX */
     --cadet-blue: #4e9596ff;
@@ -25,22 +35,48 @@ body{
     background-color: var(--jet);
     color: var(--cultured);
 }
-a {
+
+a 
+{
     padding: 10px;
     text-decoration: none;
     color: var(--cultured);
 }
-a:hover {
+
+a:hover 
+{
     background-color: var(--cadet-blue);
     color: var(--maximum-yellow-red);
 }
-#agent {
+
+#agent 
+{
     max-width: 100px;
+    padding: 30px;
+
+}
+li
+{
+    background-color: var(--cadet-blue);
+    max-width: 150px;
+    margin: 10px;
+    padding: 25px;
+    list-style-type: none;
+    display: inline-block;
+    border: solid;
+    border-width: 3px;
+    border-color: var(--red-munsell)
+}
+li:hover
+{
+    background-color: var(--jet);
 }
 /*DL,DD,DS TAGS BELOW*/
-dl {
+dl 
+{
     margin-bottom: 50px;
 }
-dl dt {
+dl dt 
+{
     float: left;
 }
